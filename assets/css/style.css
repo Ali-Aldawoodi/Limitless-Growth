@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header #ul {
+.header #ol {
     list-style-type: none;
 }
 
-.header #ul li {
+.header #ol li {
     display: inline-block;
     margin-left: 25px;
 }

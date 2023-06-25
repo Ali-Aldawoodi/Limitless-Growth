@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header #ol {
+.header #nav {
     list-style-type: none;
 }
 
-.header #ol li {
+.header #nav li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -173,7 +173,7 @@ p {
     max-height: 200px;
 }
 
-#search-engine-optimization h2 {
+.search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }

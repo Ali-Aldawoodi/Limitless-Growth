@@ -32,10 +32,14 @@ body {
     font-size: 20px;
     }
 
+/* Aligned navigation elements to the right */
+
 .header #nav {
     list-style-type: none;
     text-align: right;
 }
+
+/* Added relative positioning so as to increase pixels on bottom to get li items centered with block */
 
 .header #nav li {
     display: inline-block;
@@ -53,6 +57,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/* Changed div hero into hero id within img element */
 
 #hero {
     height: 800px;
@@ -72,6 +78,8 @@ p {
     float: right;
     margin-left: 25px;
 }
+
+/* changed div into class content */
 
 .content {
     width: 75%;

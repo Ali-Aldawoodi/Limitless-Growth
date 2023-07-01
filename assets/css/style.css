@@ -67,6 +67,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
 }
 
 .float-left {
@@ -79,14 +80,17 @@ p {
     margin-left: 25px;
 }
 
-/* changed div into class content */
+/* changed div into class content as well as made flex direction into a column*/
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    flex-wrap: wrap;
+   flex-direction: column;
 }
 
+/* Added bottom padding to lengthen the benefits box */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,6 +100,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    padding-bottom: 150px;
 }
 
 .benefit-position {
@@ -127,19 +132,22 @@ p {
 
 #search-engine-optimization img {
     max-height: 200px;
+    src: url("./assets/images/search-engine-optimization.jpg");
 }
 
 #online-reputation-management img {
     max-height: 200px;
+    src: url("./assets/images/online-reputation-management.jpg");
 }
 
 #social-media-marketing img {
     max-height: 200px;
+    src: url("./assets/images/social-media-marketing.jpg");
 }
 
 .main-material h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .footer {
